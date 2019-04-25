@@ -33,7 +33,7 @@ class App extends Component {
 
     this.setState({ botsWeapon, playersWeapon })
     const winner = this.getWinner(botsWeapon, playersWeapon)
-    this.setState({ winner: winner })
+    this.setState({ winner })
   }
 
 
